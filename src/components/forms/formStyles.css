@@ -1,0 +1,116 @@
+
+.mainDiv{
+  /* border: 2px solid #008080; */
+  /* height: 120px; */
+  /* display: inline; */
+  display: flex;
+
+}
+.subHeading{
+  height: 28px;
+  background-color: black;
+  /* -webkit-print-color-adjust: exact; */
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  /* vertical-align: middle; */
+  padding: 3px;
+}
+.borderBottom{
+  border-bottom: 1px black
+}
+
+input:focus{
+  /* border: 0; */
+  outline: none;
+}
+
+input{
+  border: 0;
+  border-bottom:1px solid black;
+  text-align: center;
+}
+
+.displayView{
+  border: 0;
+  border-bottom:1px solid #66afe9;
+  /* text-align: center; */
+  /* box-shadow: 0px */
+  border-radius: 0px;
+  /* webkit-box-shadow: none; */
+  box-shadow:none;
+  /* font-size: 10px; */
+  /* padding: 2px; */
+  /* form makin in filed to rights side make float : right and comment th height :22px  */
+  height:22px;
+  /* float: right */
+  
+}
+.displayErrorView{
+  border: 0;
+  border-bottom:1px solid red;
+  /* text-align: center; */
+  /* box-shadow: 0px */
+  border-radius: 0px;
+  /* webkit-box-shadow: none; */
+  box-shadow:none;
+  /* font-size: 10px; */
+  /* padding: 2px; */
+  /* form makin in filed to rights side make float : right and comment th height :22px  */
+  height:22px;
+  /* float: right */
+  
+}
+.displayRadioError{
+  color:red;
+}
+.displaySelectBoxError{
+  color:red;
+}
+.labelTextSmall{
+  font-size: 13px
+}
+.commentBox{
+  border: 1px solid black;
+  /* overflow:hidden; */
+  
+}
+.signaturebox{
+  display: flex;
+  justify-content: space-between;
+}
+.singleSign{
+  font-size: 13px;
+  border-top: 1px solid black;
+  width: 150px;
+  /* height: 150px; */
+  text-align: center;
+  font-weight: bold;
+  /* flex: 1 */
+}
+.singleSigntop{
+  font-size: 13px;
+  /* border-top: 1px solid black; */
+  /* width: 150px; */
+  /* height: 150px; */
+  text-align: center;
+  /* font-weight: bold; */
+  /* flex: 1 */
+}
+
+.notes {
+  background-attachment: local;
+  background-image:
+      linear-gradient(to right, white 10px, transparent 10px),
+      linear-gradient(to left, white 10px, transparent 10px),
+      repeating-linear-gradient(white, white 30px, #ccc 30px, #ccc 31px, white 31px);
+  line-height: 31px;
+  padding: 8px 10px;
+}
+
+.mt-input{
+  font-size: 14px !important;
+  width: 100% !important;
+  height: 33px !important;
+}
